@@ -22,3 +22,5 @@ console.log(novaOperacao);
 
 const alura = "Alura";
 console.log(alura * primeiroNumero);
+
+// variável - espaço na memória onde é guardado um dado

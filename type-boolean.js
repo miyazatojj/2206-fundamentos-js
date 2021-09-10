@@ -14,4 +14,23 @@ let cadastroAtivado = true;
 // comparando strings
 const texto1 = "Alura";
 const texto2 = "alura";
-console.log(texto1 === texto2);
+//console.log(texto1 === texto2);
+
+const nome = "Lara";
+const sobrenome = "Ayumi";
+const nomeCompleto = nome + sobrenome;
+// console.log(nomeCompleto);
+
+const idade = 2;
+const dezAnosDepois = "12";
+const resultado = idade + dezAnosDepois
+// console.log(resultado);
+
+const bacharel = false;
+// console.log(bacharel == 0);
+
+const soma = 10 + 10;
+const multiplicacao = 10 * 10;
+const operacao = (soma + multiplicacao) + 10;
+
+console.log(operacao);
