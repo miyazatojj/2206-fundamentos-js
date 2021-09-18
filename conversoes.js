@@ -3,6 +3,7 @@
 
 // conversão implícita:
 // permite converter um tipo de dado em outro
+// "==" -> faz a conversão implícita antes de fazer a comparação
 const numero = 456;
 const numeroString = "456";
 
@@ -14,11 +15,11 @@ const numeroString = "456";
 //No JS:
 // = -> para atribuir valor a uma variável
 // == -> para fazer uma comparação pelo valor
-// === -> para fazer uma comparação pelo valor e também o tipo, se é string, número... 
+// === -> para fazer uma comparação pelo valor e também o tipo, se é string, número... é mais específico... sempre compara os valores sem fazer a comparação antes
 
-// console.log(numero + numeroString); // o JS pegou o número e transformou em string e virou uma concatenação
+// console.log(numero + numeroString); // o JS pegou o número, transformou em string e virou uma concatenação
 
-//coversão explícita
+//conversão explícita
 // Number()
 // String()
 // console.log(numero + Number(numeroString));
